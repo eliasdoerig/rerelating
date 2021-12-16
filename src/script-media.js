@@ -1,4 +1,4 @@
-import { media } from "./media.json";
+import { media, mediaUrl } from "./media.json";
 
 const title = document.getElementById("title");
 const artist = document.getElementById("artist");
@@ -13,16 +13,18 @@ const init = function () {
     return e.slug === currentSearch;
   });
   if (currentMedia) {
-    title.innerText = currentMedia.title;
+    title.innerHTML = currentMedia.title;
     artist.innerText = `by ${currentMedia.artist}`;
     if (currentMedia.type === "audio/mp3") {
       document.title = `${currentMedia.artist} | ${currentMedia.title}`;
-      addSource(audioPlayer, currentMedia.src, currentMedia.type);
+      const src = `${mediaUrl}${currentMedia.src}`;
+      addSource(audioPlayer, src, currentMedia.type);
       audioPlayer.load();
       audioPlayer.style.display = "block";
     } else if (currentMedia.type === "video/mp4") {
       document.title = `${currentMedia.artist} | ${currentMedia.title}`;
-      addSource(videoPlayer, currentMedia.src, currentMedia.type);
+      const src = `${mediaUrl}${currentMedia.src}`;
+      addSource(videoPlayer, src, currentMedia.type);
       videoPlayer.load();
       videoPlayer.style.display = "block";
     } else {

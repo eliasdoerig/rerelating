@@ -1,4 +1,5 @@
 {
+    "mediaUrl": "https://media.kathrinwolkowicz.net/",
     "media": [
         {
             "slug": "3",
@@ -7,7 +8,7 @@
             "artist": "Myriam van Imschoot",
             "credits": "",
             "type": "audio/mp3",
-            "src": "media/3-4__Myriam_you_for_intercom.mp3"
+            "src": "3-4__Myriam_you_for_intercom.mp3"
         },
         {
             "slug": "7",
@@ -16,7 +17,7 @@
             "artist": "Myriam van Imschoot",
             "credits": "",
             "type": "video/mp4",
-            "src": "media/7__Myriam_YODEL_PORTRAIT_PHIL_MINTON.mp4"
+            "src": "7__Myriam_YODEL_PORTRAIT_PHIL_MINTON.mp4"
         },
         {
             "slug": "8",
@@ -25,7 +26,7 @@
             "artist": "Andrea Callard",
             "credits": "",
             "type": "video/mp4",
-            "src": "media/8__Fluorescent_Azalea.mp4"
+            "src": "8__Fluorescent_Azalea.mp4"
         },
         {
             "slug": "9",
@@ -34,7 +35,7 @@
             "artist": "Andrea Callard",
             "credits": "",
             "type": "video/mp4",
-            "src": "media/9__Flora_Funera.mp4"
+            "src": "9__Flora_Funera.mp4"
         },
         {
             "slug": "10",
@@ -43,7 +44,7 @@
             "artist": "Andrea Callard",
             "credits": "",
             "type": "video/mp4",
-            "src": "media/10__11_thru_12.mp4"
+            "src": "10__11_thru_12.mp4"
         },
         {
             "slug": "12",
@@ -52,7 +53,7 @@
             "artist": "Andrea Callard",
             "credits": "",
             "type": "audio/mp3",
-            "src": "media/12__RE_Position-Callard-mix.mp3"
+            "src": "12__RE_Position-Callard-mix.mp3"
         },
         {
             "slug": "13",
@@ -61,7 +62,7 @@
             "artist": "Andrea Callard",
             "credits": "",
             "type": "video/mp4",
-            "src": "media/13-14__Lost_Shoe_Blues.mp4"
+            "src": "13-14__Lost_Shoe_Blues.mp4"
         },
         {
             "slug": "15",
@@ -70,7 +71,7 @@
             "details": "2014<br>performance<br>Cellar Noises<br>Urban Explorers Festival Dordrecht",
             "credits": "",
             "type": "audio/mp3",
-            "src": "media/15__Toine_BBC-Worldnews_7-am.mp3"
+            "src": "15__Toine_BBC-Worldnews_7-am.mp3"
         },
         {
             "slug": "16",
@@ -79,7 +80,7 @@
             "artist": "Toine Horvers",
             "credits": "",
             "type": "audio/mp3",
-            "src": "media/16__Toine_OneVoice-1.mp3"
+            "src": "16__Toine_OneVoice-1.mp3"
         },
         {
             "slug": "26",
@@ -88,7 +89,7 @@
             "artist": "Heyer Thurnheer",
             "credits": "",
             "type": "video/mp4",
-            "src": "media/26__Paragraphs.mp4"
+            "src": "26__Paragraphs.mp4"
         },
         {
             "slug": "32",
@@ -97,7 +98,7 @@
             "artist": "Markus Bergner",
             "credits": "",
             "type": "video/mp4",
-            "src": "media/32_Marcus_Musicalfourletters.mp4"
+            "src": "32_Marcus_Musicalfourletters.mp4"
         },
         {
             "slug": "33",
@@ -106,7 +107,7 @@
             "artist": "Markus Bergner",
             "credits": "",
             "type": "video/mp4",
-            "src": "media/33__OPEN_SCHOOL_Intersections_of_Care_Decolonial practices_THE_POST_COLLECTIVE.mp4"
+            "src": "33__OPEN_SCHOOL_Intersections_of_Care_Decolonial practices_THE_POST_COLLECTIVE.mp4"
         },
         {
             "slug": "36",

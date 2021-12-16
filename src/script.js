@@ -1,4 +1,4 @@
-import { media } from "./media.json";
+import { media, mediaUrl } from "./media.json";
 
 // Grab elements, create settings, etc.
 const video = document.getElementById("video");
