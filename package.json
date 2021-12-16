@@ -2,15 +2,15 @@
   "name": "re-relating",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html src/*.html --https",
-    "build": "rm -rf public/ && parcel build src/index.html src/*.html --out-dir public/ --no-minify --no-content-hash"
+    "build": "rm -rf public/* && parcel build src/index.html src/*.html --dist-dir public --no-content-hash"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "cssnano": "^5.0.13",
+    "parcel": "^2.0.1",
     "parcel-plugin-static-files-copy": "^2.6.0",
     "postcss": "^8.4.5",
     "sass": "^1.45.0"
