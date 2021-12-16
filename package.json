@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html src/*.html --https",
-    "build": "parcel build src/index.html"
+    "build": "rm -rf public/ && parcel build src/index.html src/*.html --out-dir public/ --no-minify --no-content-hash"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "parcel-plugin-static-files-copy": "^2.6.0"
+    "cssnano": "^5.0.13",
+    "parcel-plugin-static-files-copy": "^2.6.0",
+    "postcss": "^8.4.5",
+    "sass": "^1.45.0"
   },
   "staticFiles": {
     "staticPath": [
