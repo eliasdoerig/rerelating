@@ -4,4 +4,4 @@ public
 node_modules
 .DS_Store
 src/.DS_Store
-src/assets
+src/media

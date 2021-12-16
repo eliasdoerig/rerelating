@@ -18,8 +18,10 @@ function init() {
       audio: false,
     })
     .then((stream) => {
-      //track = stream.getTracks()[0];
       video.srcObject = stream;
+      video.onloadedmetadata = function (e) {
+        video.play();
+      };
     })
     .then(() => {
       ml5

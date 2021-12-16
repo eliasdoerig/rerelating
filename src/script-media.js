@@ -1,6 +1,7 @@
 import { media } from "./media.json";
 
 const title = document.getElementById("title");
+const artist = document.getElementById("artist");
 const videoPlayer = document.getElementById("video");
 const audioPlayer = document.getElementById("audio");
 videoPlayer.style.display = "none";
@@ -13,6 +14,7 @@ const init = function () {
   });
   if (currentMedia) {
     title.innerText = currentMedia.title;
+    artist.innerText = `by ${currentMedia.artist}`;
     if (currentMedia.type === "audio/mp3") {
       addSource(audioPlayer, currentMedia.src, currentMedia.type);
       audioPlayer.load();
