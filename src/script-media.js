@@ -16,10 +16,12 @@ const init = function () {
     title.innerText = currentMedia.title;
     artist.innerText = `by ${currentMedia.artist}`;
     if (currentMedia.type === "audio/mp3") {
+      document.title = `${currentMedia.artist} | ${currentMedia.title}`;
       addSource(audioPlayer, currentMedia.src, currentMedia.type);
       audioPlayer.load();
       audioPlayer.style.display = "block";
     } else if (currentMedia.type === "video/mp4") {
+      document.title = `${currentMedia.artist} | ${currentMedia.title}`;
       addSource(videoPlayer, currentMedia.src, currentMedia.type);
       videoPlayer.load();
       videoPlayer.style.display = "block";

@@ -24,6 +24,8 @@ function init() {
       };
     })
     .then(() => {
+      // Initialize the Image Classifier method with MobileNet passing the video as the
+      // second argument and the getClassification function as the third
       ml5
         .imageClassifier("test-image-model/model.json", video)
         .then((classifier) => loop(classifier));
@@ -31,8 +33,6 @@ function init() {
     .catch(function (error) {
       console.error("Oops. Something is broken.", error);
     });
-  // Initialize the Image Classifier method with MobileNet passing the video as the
-  // second argument and the getClassification function as the third
 }
 
 const loop = (classifier) => {
@@ -41,19 +41,27 @@ const loop = (classifier) => {
     //probability.innerText = `${conf * 100}%`;
     if (conf > 0.95) {
       if (!isLinkVisible) {
+        //set current media
         currentMedia = media.find((e) => {
           return e.slug === results[0].label;
         });
-        title.innerHTML = `${currentMedia.slug}<br>${currentMedia.title}`;
+        //searching animation
         searching.style.display = "none";
+        //current media title
+        title.innerHTML = `${currentMedia.slug}<br>${currentMedia.title}`;
+        //go to media button
+        mediaLink.innerText =
+          currentMedia.type === "audio/mp3" ? "Go to audio" : "Go to video";
         mediaLink.style.opacity = 1;
+
         isLinkVisible = true;
       }
     } else if (conf < 0.6 && isLinkVisible) {
       if (isLinkVisible) {
+        //reset
         currentMedia = "";
-        title.innerText = "";
         searching.style.display = "block";
+        title.innerText = "";
         mediaLink.style.opacity = 0;
         isLinkVisible = false;
       }
