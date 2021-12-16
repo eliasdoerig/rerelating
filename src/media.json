@@ -1,0 +1,121 @@
+{
+    "media": [
+        {
+            "slug": "3",
+            "title": "YOU = Sound intervention for Intercom",
+            "details": "2016<br>5 min recording by performers of the YouYou Group Brussels at Kunstenwerkplaats Pianofabriek, aired in public library Muntpunt in Brussels",
+            "artist": "Myriam van Imschoot",
+            "credits": "",
+            "type": "audio/mp3",
+            "src": "assets/3-4__Myriam_you_for_intercom.mp3"
+        },
+        {
+            "slug": "7",
+            "title": "Yodel Portrait<br>Phil Minton",
+            "details": "2017<br>HD, colour, 30:08 min",
+            "artist": "Myriam van Imschoot",
+            "credits": "",
+            "type": "video/mp4",
+            "src": "assets/7__Myriam_YODEL_PORTRAIT_PHIL_MINTON.mp4"
+        },
+        {
+            "slug": "8",
+            "title": "Fluorescent/Azalea",
+            "details": "1976<br>Super 8mm sound film (preserved on 16mm and digitally)<br>4 min",
+            "artist": "Andrea Callard",
+            "credits": "",
+            "type": "video/mp4",
+            "src": "assets/8__Fluorescent_Azalea.mp4"
+        },
+        {
+            "slug": "9",
+            "title": "Flora Funera",
+            "details": "1976<br>Super 8mm sound film (preserved on 16mm and digitally)<br>4 min",
+            "artist": "Andrea Callard",
+            "credits": "",
+            "type": "video/mp4",
+            "src": "assets/9__Flora_Funera.mp4"
+        },
+        {
+            "slug": "10",
+            "title": "11 thru 12",
+            "details": "1977<br>Super 8mm sound film (preserved on 16mm and digitally)<br>12 min",
+            "artist": "Andrea Callard",
+            "credits": "",
+            "type": "video/mp4",
+            "src": "assets/10__11_thru_12.mp4"
+        },
+        {
+            "slug": "12",
+            "title": "Repositioning Myself in the Marketplace",
+            "details": "2008<br>notes for the soundscape composition /21 min audio installation",
+            "artist": "Andrea Callard",
+            "credits": "",
+            "type": "audio/mp3",
+            "src": "assets/12__RE_Position-Callard-mix.mp3"
+        },
+        {
+            "slug": "13",
+            "title": "Lost Shoe Blues",
+            "details": "1976<br>Super 8mm sound film (preserved on 16mm and digitally)<br>4 min",
+            "artist": "Andrea Callard",
+            "credits": "",
+            "type": "video/mp4",
+            "src": "assets/13-14__Lost_Shoe_Blues.mp4"
+        },
+        {
+            "slug": "15",
+            "title": "real space/real time",
+            "artist": "Toine Horvers",
+            "details": "2014<br>performance<br>Cellar Noises<br>Urban Explorers Festival Dordrecht",
+            "credits": "",
+            "type": "audio/mp3",
+            "src": "assets/15__Toine_BBC-Worldnews_7-am.mp3"
+        },
+        {
+            "slug": "16",
+            "title": "One Voice 1",
+            "details": "2012<br>performance with cooperation of Marcus Bergner<br>text by Samuel VriezenRumpsti Pumsti, Berlin",
+            "artist": "Toine Horvers",
+            "credits": "",
+            "type": "audio/mp3",
+            "src": "assets/16__Toine_OneVoice-1.mp3"
+        },
+        {
+            "slug": "26",
+            "title": "Paragraphs a-n",
+            "details": "2013–2016<br>textual object, poster, flyer /spoken piece for 13 artists and laypeople",
+            "artist": "Heyer Thurnheer",
+            "credits": "",
+            "type": "video/mp4",
+            "src": "assets/26__Paragraphs.mp4"
+        },
+        {
+            "slug": "32",
+            "title": "Musical Four Letters",
+            "details": "1989<br>16 mm, 5 min, sound",
+            "artist": "Markus Bergner",
+            "credits": "",
+            "type": "video/mp4",
+            "src": "assets/32_Marcus_Musicalfourletters.mp4"
+        },
+        {
+            "slug": "33",
+            "title": "Post-Collective",
+            "details": "Lecture-Performance<br>Radical Imagination<br>Integrated 2019<br>DeSingel, Antwerp",
+            "artist": "Markus Bergner",
+            "credits": "",
+            "type": "video/mp4",
+            "src": "assets/33__OPEN_SCHOOL_Intersections_of_Care_Decolonial practices_THE_POST_COLLECTIVE.mp4"
+        },
+        {
+            "slug": "36",
+            "title": "water (maintenance material)",
+            "details": "2018<br>performance piece for staff/exhibition care-takers That Fabric Between Us OnArte, Locarno",
+            "artist": "Kathrin Wolkowicz",
+            "credits": "",
+            "type": "video/mp4",
+            "src": "36-37__Kathrin_water_maintenance_performance.mp4"
+        }
+    ]
+}

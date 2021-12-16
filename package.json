@@ -1,0 +1,27 @@
+{
+  "name": "re-relating",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html src/*.html --https",
+    "build": "parcel build src/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-plugin-static-files-copy": "^2.6.0"
+  },
+  "staticFiles": {
+    "staticPath": [
+      {
+        "staticPath": "src/assets",
+        "staticOutDir": "assets"
+      },
+      {
+        "staticPath": "src/test-image-model",
+        "staticOutDir": "test-image-model"
+      }
+    ]
+  }
+}
