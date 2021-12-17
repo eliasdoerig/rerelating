@@ -39,8 +39,8 @@ const loop = (classifier) => {
   classifier.classify().then((results) => {
     const conf = results[0].confidence.toFixed(4);
     //probability.innerText = `${conf * 100}%`;
-    if (conf > 0.95) {
-      if (!isLinkVisible) {
+    if (conf > 0.95 && results[0].label !== "NO") {
+      if (!isLinkVisible || currentMedia !== results) {
         //set current media
         currentMedia = media.find((e) => {
           return e.slug === results[0].label;
